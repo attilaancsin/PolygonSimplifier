@@ -1,0 +1,12 @@
+[general]
+name=PolygonSimplifier
+description=A tool for simplifying polygons with preserving topology.
+version=1.0
+qgisMinimumVersion=2.10
+author=Attila Ancsin
+email=attilaancsin@gmail.com
+icon=icon.png
+homepage=https://github.com/attilaancsin/PolygonSimplifier
+tracker=https://github.com/attilaancsin/PolygonSimplifier/issues
+repository=hhttps://github.com/attilaancsin/PolygonSimplifier
+about=PolygonSimplifier can simplify polygons using the Ramer-Douglas-Peucker, the Visvalingam-Whyatt or the Whirlpool generalization algorithms. It is capable of preserving the topology during generalization.
