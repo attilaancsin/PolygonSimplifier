@@ -2,7 +2,7 @@
 name=PolygonSimplifier
 description=A tool for simplifying polygons with preserving topology.
 version=1.0
-qgisMinimumVersion=2.10
+qgisMinimumVersion=2.8
 author=Attila Ancsin
 email=attilaancsin@gmail.com
 icon=icon.png
