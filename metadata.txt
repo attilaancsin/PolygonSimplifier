@@ -8,5 +8,5 @@ email=attilaancsin@gmail.com
 icon=icon.png
 homepage=https://github.com/attilaancsin/PolygonSimplifier
 tracker=https://github.com/attilaancsin/PolygonSimplifier/issues
-repository=hhttps://github.com/attilaancsin/PolygonSimplifier
+repository=https://github.com/attilaancsin/PolygonSimplifier
 about=PolygonSimplifier can simplify polygons using the Ramer-Douglas-Peucker, the Visvalingam-Whyatt or the Whirlpool generalization algorithms. It is capable of preserving the topology during generalization.
