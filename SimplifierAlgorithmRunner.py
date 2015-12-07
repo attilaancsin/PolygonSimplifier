@@ -35,7 +35,8 @@ class SimplifierAlgorithmRunner:
 
     def createSimilarLayer(self, inputLayer, name):
         """Creates a new layer that is similar to the specified input layer."""
-        layer = QgsVectorLayer('Polygon?crs=epsg:4326&index=yes', name, 'memory')
+        crs = inputLayer.crs().authid()
+        layer = QgsVectorLayer('Polygon?crs=' + crs + '&index=yes', name, 'memory')
         layer.dataProvider().addAttributes(inputLayer.pendingFields())
         layer.updateFields()
         return layer
